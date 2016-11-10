@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Today in Video Games</title>
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!--Not Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div id="banner">
+      <img class = "resize" src="http://static.giantbomb.com/uploads/original/0/4941/2806380-giantbomb_1.jpg"></img>
+      </div>
+    </header>
+    <div id="content">
+      <form>
+        <select name="month" id="day">
+          <option value="01">January</option>
+          <option value="02">February</option>
+          <option value="03">March</option>
+          <option value="04">April</option>
+          <option value="05">May</option>
+          <option value="06">June</option>
+          <option value="07">July</option>
+          <option value="08">August</option>
+          <option value="09">September</option>
+          <option value="10">October</option>
+          <option value="11">November</option>
+          <option value="12">December</option>
+        </select>
+        <select name="day" id="day">
+          <option value="01">1</option>
+          <option value="02">2</option>
+          <option value="03">3</option>
+          <option value="04">4</option>
+          <option value="05">5</option>
+          <option value="06">6</option>
+          <option value="07">7</option>
+          <option value="08">8</option>
+          <option value="09">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+        </select>
+        <button type="button" class="btn-primary" id="dateButton">Go!</button>
+      </form>
+      <div id=gamesList>
+        <!--Populated by script-->
+      </div>
+    </div>
+    <footer>
+      Written by Conrad Cash<br>
+      Powered by the <a href="http://www.giantbomb.com/api/">Giant Bomb API</a>
+    </footer>
+  </div>
+
+
+  <!--Load jQuery-->
+  <script src="js/jquery-3.1.1.js"></script>
+  <!--Load main.js-->
+  <script src="scripts/main.js"></script>
+</body>
+</html>
