@@ -1,4 +1,4 @@
-//Wait for page to load before deploying javascript
+//Wait for page to load before running
 $(document).ready(function(){
   //Get today's date
   var date_today = new Date();
@@ -65,7 +65,7 @@ function GetGames(inputdate,yyyy){
     dataType: 'jsonp',
     jsonp: 'json_callback',
     data:{
-      api_key: '/*Your API key here*/',
+      api_key: '5e57f67f91f9ea33558f01628a3d393ea9ebfd8a',
       filter: inputdate,
       field_list: 'name,site_detail_url',
       format: 'jsonp'
