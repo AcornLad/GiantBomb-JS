@@ -58,7 +58,7 @@ function GetGames(inputdate,yyyy){
   var div = $("<div class='gamesOutput'></div>")
   var $gamesList = $('#gamesList');
 
-
+//TODO: Copy this method in GiantBomb_REST, make an equivalent handler and call that instead
   $.ajax({
     url: 'http://www.giantbomb.com/api/games/',
     type: 'GET',
